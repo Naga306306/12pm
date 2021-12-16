@@ -7,11 +7,16 @@
   <groupId>banking</groupId>
   <artifactId>accounts</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
 
   <name>accounts</name>
   <url>http://maven.apache.com</url>
 
+       <modules>
+          <module>add</module>
+	  <module>sub</module>
+       </modules>  
+       
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
